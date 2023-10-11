@@ -679,6 +679,7 @@ address{
     display: flex;
     justify-content: center;
 }
+
 #ab-flex{
     display: flex;
     height: 100%;
@@ -694,6 +695,8 @@ address{
     left: 12.5px;
     top: 12.5px;
     animation: weeble-wobble 15s ease-in-out infinite;
+    z-index: -1;
+    overflow-y: hidden;
 
 }
 #blob{
@@ -701,6 +704,10 @@ address{
     height: 300px;
     width: 300px;
     animation: weeble-wobble 15s ease-in-out infinite;
+    z-index: -1;
+}
+#my_pic{
+    margin-left: 25px;
 }
 @keyframes weeble-wobble{
     0%{
